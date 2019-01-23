@@ -1,7 +1,29 @@
 Title: Systematic Serendipity:  A Test of Unsupervised Machine Learning as a Method for Anomaly Detection
 Authors: Daniel Giles and Lucianne Walkowicz
 Year: 2018
+GitHub: https://github.com/d-giles/KeplerML
 
-Summary:
+Summary: The authors explore unsupervised classification of Kepler objects using the Density-Based Spatial 
+Clustering of Applications with Noise (DBSCAN) algorithm. This algorithm uses a nearest-neighbors approach
+to identify outliers. DBSCAN utilizes values for the maximum separation in feature space between two points
+to be associated with one another (epsilon) and the minimum number of associated members to qualify a point
+as a core cluster member (k) in determining "core" versus "edge" cluster members. Note, these clusters were
+evaluated in feature space, and they used features from a previous study of the same dataset. They 
+considered Tabby's Star as a proof-of-concept case from which they could determine the effectiveness of 
+their classifier. Their classification algorithm successfully identified Tabby's Star as an anomaly, 
+although many identified anomalies were simply detection errors. They used t-SNE for resulting 
+visualization.
 
-Relevance:
+Relevance: I was really interested in their use of DBSCAN, and I came to understand the power of feature
+selection / extraction. Feature selection (in a way) bypasses the issue of irregular sampling by 
+"standardizing" the information attributed to each light curve (all feature vectors are the same length, 
+thus eliminating the risk of comparing sparse lightcurves with heavily-sampled ones). However, I imagine 
+that irregular sampling makes the attributed features less reliable, so I still find feature extraction odd.
+DBSCAN seems like an effective tool for clustering in feature space, especially regarding anomaly detection.
+
+Further references, from this paper:
+On Machine-Learned Classification of Variable Stars with Sparse and Noisy Time-Series Data:
+https://arxiv.org/abs/1101.1959
+
+Anomaly Detection: A Survey: 
+https://www.vs.inf.ethz.ch/edu/HS2011/CPS/papers/chandola09_anomaly-detection-survey.pdf
