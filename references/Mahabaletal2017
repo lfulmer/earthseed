@@ -1,18 +1,35 @@
+About
 Title: Deep-Learnt Classification of Light Curves
 Authors: A. Mahabal, K. Sheth, F. Gieseke, A. Pai, S. G. Djorgovski, A. J. Drake, M. J. Graham, 
 and CSS/CRTS/PTF Teams
 Year: 2017
 GitHub: None
 
-Summary: 
+Summary
+The authors approach the question of object classification by first translating astronomical light 
+curves into "dmdt" images and subsequently performing imaging classification on these two-
+dimensional representations via a convolutional neural network (CNN). The dmdt images record 
+changes in magnitude (dm) and change in time (dt) information between all pairs of points in a 
+particular light curve. These dmdt values are then arranged within a two-dimensional image to
+create a kaleidoscopic picture. The CNN learns the features of these images, and then learns to 
+classify astronomical objects based on image features. They also explore "background subtraction"
+for these images, considering both class-specific background subtraction and a general random noise
+background subtraction. They discuss the effectiveness of transfer learning of their CNN from one 
+astronomical survey to another and conclude that while the CNN did not perform well when transferred 
+to a new dataset, it was still an appropriate starting point for classifying the new survey.
 
-Relevance: 
+Relevance
+I'm generally interested in the dmdt image classification method, although I suspect that it 
+relies too heavily on survey parameters (such as observational cadence, dt) for its notable 
+features (rather than physical properties of the astronomical objects). I really like the idea of 
+representing light curves as an image and working with image classification. In particular, the
+topic of "background" subtraction of these kaleidoscopic image struck me as an entirely new concern.
 
-- "The  standard  features  do  not  carry special  powers  for  classifying  a  varied  
-set  of  objects.  The designer  features  are  better  for  specific  classes,  but  carry with  
-them  a  bias  that  does  not  necessarily  translate  to  the classification of a wider set."
+A note from the authors, "The standard features do not carry special powers for classifying a varied 
+set of objects. The designer features are better for specific classes, but carry with them a bias 
+that does not necessarily translate to the classification of a wider set."
 
-Further references, from this paper:
+Further References
 On Machine-Learned Classification of Variable Stars with Sparse and Noisy Time-Series Data:
 https://arxiv.org/abs/1101.1959
 
