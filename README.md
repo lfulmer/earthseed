@@ -7,5 +7,5 @@ Clustering of Applications with Noise (DBSCAN) algorithm. They considered Tabby'
 
 ## Questions:
 - Daniela noted that she's not entirely set on the dmdt image classification method. I would like to hear more about why not.
-- I want to gain a greater understanding of what happens compuational within a neural network. (E.g. What *are* the "neurons" exactly? What does having different layers do to a neural network?)
+- I want to gain a greater understanding of what happens compuationally within a neural network. (E.g. What *are* the "neurons" exactly? What does having different layers do to a neural network?)
 - What are "designer features"?
