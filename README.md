@@ -6,6 +6,7 @@ Exploring unsupervised lightcurve classification on ZTF and subsequently LSST ob
 - Daniela noted that she's not entirely set on the dmdt image classification method. I would like to hear more about why not.
 - I want to gain a greater understanding of what happens compuationally within a neural network. (E.g. What *are* the "neurons" exactly? What does having different layers do to a neural network?)
 - What are "designer features"? From Mahabal et. al. 2017, "The designer features are better for specific classes, but carry with them a bias that does not necessarily translate to the classification of a wider set."
+- What is the difference between "classification error" and "purity" (and "efficiency")?
 
 
 ## References:
