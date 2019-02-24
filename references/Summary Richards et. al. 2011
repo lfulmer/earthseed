@@ -6,9 +6,14 @@ Year: 2011
 GitHub: None
 
 Summary
-
+The authors review and perform a standard supervised classification workflow of feature selection, 
+tree-based classification, and cross-validation. They classify a set of ~1500 well-known variable 
+stars using observations from the Optical Gravitational Lensing Experiment (OGLE) and Hipparcus.
 
 Relevance
+This paper offers a thorough introduction to feature selection, tree-based classification methods, 
+cross-validation, etc. I may want to return to this paper again for conceptual review when
+necessary.
 
 Notable lesson on the value of observation + theory, "For example, the periodic dimming of a light 
 curve may be captured with a small number of observable parameters but the inference that that 
