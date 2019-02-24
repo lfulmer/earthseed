@@ -19,5 +19,17 @@ Notable lesson on the value of observation + theory, "For example, the periodic 
 curve may be captured with a small number of observable parameters but the inference that that 
 source is an eclipsing one requires a theoretical framework."
 
+Regarding decision trees: 
+- "At each step, the algorithm selects both the feature and split point that produces the smallest 
+impurity in the two resultant nodes." 
+- "Note that we are free to describe the classification output for each new source either as a 
+vector of class probabilities or as its predicted science class.
+- Decision trees, while relatively unbiased, often have a high variance. Bagging, bootstrapping, 
+and random forrest techniques are used to reduce this variance while maintaining a small bias.
+
 
 Further References
+Understanding the Lomb-Scargle Periodogram:
+https://arxiv.org/pdf/1703.09824.pdf
+
+
