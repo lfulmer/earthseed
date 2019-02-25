@@ -6,30 +6,28 @@ Year: 2011
 GitHub: None
 
 Summary
-The authors review and perform a standard supervised classification workflow of feature selection, 
-tree-based classification, and cross-validation. They classify a set of ~1500 well-known variable 
-stars using observations from the Optical Gravitational Lensing Experiment (OGLE) and Hipparcus.
+The authors classify a set of ~1500 well-known variable stars using observations from the Optical 
+Gravitational Lensing Experiment (OGLE) and Hipparcus, in direct comparison to Debosscher et. al. 
+(2007). They review and perform a standard supervised classification workflow of feature selection, 
+random forrest classification, and cross-validation. They attribute their improved results (as 
+compared to Debosscher et. al. (2007)) to their employment of a Lomb-Scargle periodogram, a thorough 
+assessment of highly-predictive features, and the incorporation of a hierarchical taxonomy. 
 
 Relevance
-This paper offers a thorough introduction to feature selection, tree-based classification methods, 
-cross-validation, etc. I may want to return to this paper again for conceptual review when
-necessary.
-
-Notable lesson on the value of observation + theory, "For example, the periodic dimming of a light 
-curve may be captured with a small number of observable parameters but the inference that that 
-source is an eclipsing one requires a theoretical framework."
-
-Regarding decision trees: 
-- "At each step, the algorithm selects both the feature and split point that produces the smallest 
-impurity in the two resultant nodes." 
-- "Note that we are free to describe the classification output for each new source either as a 
-vector of class probabilities or as its predicted science class.
-- Decision trees, while relatively unbiased, often have a high variance. Bagging, bootstrapping, 
-and random forrest techniques are used to reduce this variance while maintaining a small bias.
-
+This paper largely reviews supervised methods, so while it is relevant on a conceptual level, I 
+will want to review papers regarding unsupervised methods more intentionally. This paper offers a 
+thorough introduction to feature selection, decision tree classification methods, cross-validation, 
+etc. I may want to return to this paper again for conceptual review when necessary.
 
 Further References
 Understanding the Lomb-Scargle Periodogram:
 https://arxiv.org/pdf/1703.09824.pdf
 
-
+Additional Notes
+Regarding Decision Trees:
+- "At each step, the algorithm selects both the feature and split point that produces the smallest 
+impurity in the two resultant nodes." 
+- "Note that we are free to describe the classification output for each new source either as a 
+vector of class probabilities or as its predicted science class."
+- Decision trees, while relatively unbiased, often have a high variance. Bagging, bootstrapping, 
+and random forrest techniques are used to reduce this variance while maintaining a small bias.
