@@ -1,6 +1,9 @@
+Questions:
+- What is the advantage of having more nodes?
+
 Learning
-Deep:
-Machine: Machine learning refers to any computational algorithm that performs a specific task without explicit 
+- Deep:
+- Machine: Machine learning refers to any computational algorithm that performs a specific task without explicit 
 instruction. Such an algorithm relies on pattern recognition and inference in order to complete the task and 
 learns by experience (taking in many repeated examples of the data to be identified, classified, etc). In this 
 way, machine learning attempts to mimic the way that humans learn. As a child, you learn that a spoon is called 
@@ -12,36 +15,40 @@ to provide (i.e. "tell me which of these objects humans have never seen before")
 Transfer:
 
 Neural Networks, Types
-Artificial: Otherwise known as simply a "neural network", ANNs are a form of machine learning algorithm whose 
+- Artificial: Otherwise known as simply a "neural network", ANNs are a form of machine learning algorithm whose 
 architecture is made up of interconnected "neurons" or "nodes". Neurons receive, process, and transmit 
 information among one another, collectively transforming input to output.
-Bayesian:
-Convolutional:
-Deep:
-Fully Connected Feedforward:
-Long Short Term Memory:
-Recurrent:
+- Bayesian:
+- Convolutional:
+- Deep:
+- Fully Connected Feedforward:
+- Long Short Term Memory:
+- Recurrent:
 
 Neural Networks, Anatomy
-Activation Function: "Typicall have a sigmoid shape", that's why Daniela always uses the sigma symbol to represent
-an activation function. "They are also often monotonically increasing, continuous, 
-differentiable and bounded."
-Layers:
-Neuron: A mathematical function that receives one or more inputs, creates a linear combination of the inputs (sums 
-them with weights), passes them through a non-linear function ("activation function")
-Weights:
+- Activation Function: Also known as "transfer functions".... "Typicall have a sigmoid shape", that's why Daniela 
+always uses the sigma symbol to represent an activation function. "They are also often monotonically increasing, 
+continuous, differentiable and bounded."
+Gates:
+- Layers: The aggregation of a number of 
+- Neuron: A mathematical function that receives one or more inputs, creates a linear combination of the inputs 
+(sums them with weights), passes the linear combination through a non-linear function ("activation function"), and 
+transmits the activation function resulting value as an output. This output may undergo further processing by 
+other layers within the neural network.
+- Thresholds:
+- Weights:
 
 
 Miscellaneous
 
-Architecture:
-Data Mining:
-Gradient:
-Logic Gates:
-Training Set: The set of example information from which a machine learning algorithm learns its intended task. 
+- Architecture:
+- Data Mining:
+- Gradient:
+- Logic Gates:
+- Training Set: The set of example information from which a machine learning algorithm learns its intended task. 
 Constructing a "good" (comprehensive, reprepresentative) training set is important, because it determines the 
 degree to which your algorithm will perform its intended task in the future. If you want a child to speak 
 multiple languages, they must receive input from native speakers of those languages. Similarly, a machine
 learning algorithm can only reproduce what it has been shown.
-Testing Set: 
+- Testing Set: 
 
