@@ -1,0 +1,30 @@
+Learning
+Deep:
+Machine: Machine learning refers to any computational algorithm that performs a specific task without explicit 
+instruction. Such an algorithm relies on pattern recognition and inference in order to complete the task and
+learns by experience (taking in many repeated examples of the data to be identified, classified, etc). In this
+way, machine learning attempts to mimic the way that humans learn. As a child, you learn that a spoon is called
+a "spoon" because a parent repeatedly refers to it as such. Children may misclassify their experiences because 
+they have few reference points from which to assess them. Adults are typically more skilled at processing and 
+classifying their experiences because they have a foundation of pattern recognition on which to base their 
+analysis. Machine learning is an important technique among tasks for which explicit instructions are impossible
+to provide (i.e. "tell me which of these objects humans have never seen before").
+Transfer:
+
+Neural Networks
+Artificial: Otherwise known as simply "neural network", 
+Bayesian:
+Convolutional:
+Deep:
+Fully Connected Feedforward:
+Long Short Term Memory:
+Recurrent:
+
+
+Miscellaneous
+Activation Function:
+Architecture:
+Gradient:
+Weights:
+Training Set:
+Testing Set:
