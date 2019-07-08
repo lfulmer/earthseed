@@ -1,5 +1,7 @@
 Questions:
 - What is the advantage of having more nodes?
+- Why do activation functions have the shape that they do?
+- What determines the shape of an activation function?
 
 Learning
 - Deep:
@@ -16,8 +18,8 @@ Transfer:
 
 Neural Networks, Types
 - Artificial: Otherwise known as simply a "neural network", ANNs are a form of machine learning algorithm whose 
-architecture is made up of interconnected "neurons" or "nodes". Neurons receive, process, and transmit 
-information among one another, collectively transforming input to output.
+architecture is made up of interconnected nodes or "neurons". Neurons receive, process, and transmit information 
+among one another, collectively transforming input to output.
 - Bayesian:
 - Convolutional:
 - Deep:
@@ -26,15 +28,20 @@ information among one another, collectively transforming input to output.
 - Recurrent:
 
 Neural Networks, Anatomy
-- Activation Function: Also known as "transfer functions".... "Typicall have a sigmoid shape", that's why Daniela 
-always uses the sigma symbol to represent an activation function. "They are also often monotonically increasing, 
+- Activation Function: Otherwise known as a "transfer function", activation functions determine the output of a neuron. 
+An activation function is a mathematical proxy to the rate of action potential within a cell. In its most simplistic 
+form, a neuron has two possible outputs: "off" - 0, and "on" - 1. With more complex outputs (i.e. a function that 
+interpolates between 0 and 1), one may construct a neural network capable of more complex tasks. In order to learn 
+non-trivial tasks, a neural network must contain nonlinear activation functions. Activation functions typically have a 
+sigmoid shape and thus are represented with a "sigma" symbol. "They are also often monotonically increasing, 
 continuous, differentiable and bounded."
-Gates:
+- Gates:
 - Layers: The aggregation of a number of 
 - Neuron: A mathematical function that receives one or more inputs, creates a linear combination of the inputs 
 (sums them with weights), passes the linear combination through a non-linear function ("activation function"), and 
 transmits the activation function resulting value as an output. This output may undergo further processing by 
 other layers within the neural network.
+- Perceptron: 
 - Thresholds:
 - Weights:
 
@@ -44,6 +51,7 @@ Miscellaneous
 - Architecture:
 - Data Mining:
 - Gradient:
+- Heaviside: 
 - Logic Gates:
 - Training Set: The set of example information from which a machine learning algorithm learns its intended task. 
 Constructing a "good" (comprehensive, reprepresentative) training set is important, because it determines the 
