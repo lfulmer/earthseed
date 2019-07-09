@@ -1,7 +1,8 @@
-Questions:
+Questions
 - What is the advantage of having more nodes?
 - Why do activation functions have the shape that they do?
 - What determines the shape of an activation function?
+- How do the neurons in a layer work together?
 
 Learning
 - Deep:
@@ -31,13 +32,14 @@ Neural Networks, Anatomy
 - Activation Function: Otherwise known as a "transfer function", activation functions determine the output of a neuron. 
 An activation function is a mathematical proxy to the rate of action potential within a cell. In its most simplistic 
 form, a neuron has two possible outputs: "off" - 0, and "on" - 1. With more complex outputs (i.e. a function that 
-interpolates between 0 and 1), one may construct a neural network capable of more complex tasks. In order to learn 
-non-trivial tasks, a neural network must contain nonlinear activation functions. The nonlinearity of an activation 
-function offers nuance. You can ask questions that have more complicated answers than yes or no. Activation functions 
-typically have a sigmoid shape and thus are represented with a "sigma" symbol. "They are also often monotonically 
-increasing, continuous, differentiable and bounded."
+interpolates between 0 and 1), one may construct a neural network capable of more complex tasks. The nonlinearity of 
+an activation function offers nuance; you can ask questions that have more complicated answers than "yes" or "no". 
+Furthermore, in order to learn non-trivial tasks, a neural network *must* contain nonlinear activation functions. 
+Activation functions typically have a sigmoid shape (close to hyperbolic tangent), and "they are [] often monotonically 
+increasing, continuous, differentiable and bounded." For backpropogation, the activation function must be differentiable.
+- Backpropogation: 
 - Gates:
-- Layers: The aggregation of a number of 
+- Layers: The aggregation of a number of neurons. 
 - Neuron: A mathematical function that receives one or more inputs, creates a linear combination of the inputs 
 (sums them with weights), passes the linear combination through a non-linear function ("activation function"), and 
 transmits the activation function resulting value as an output. This output may undergo further processing by 
