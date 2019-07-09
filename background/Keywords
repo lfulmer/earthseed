@@ -1,12 +1,20 @@
 Questions
 - What is the advantage of having more nodes?
--- Similar to with nonlinear activation functions, I'm guessing that more nodes offer the 
-opportunity to learn more nuanced tasks.
+- What is the standard number of nodes used for a complex task? Is the number of nodes used in 
+an algorithm something that people compare / use as a metric, such as lines of code?
 - Why do activation functions have the shape that they do?
 - What determines the shape of an activation function?
 - How do the neurons in a layer work together?
 - Why is the first input always constant or equal to 1? What's the point of having that 
 input in the first place? What information does it offer?
+
+Functions
+- Activation: See Neural Networks, Anatomy.
+- Heaviside: "The unit step function", holds the value 0 for negative arguments 
+(inputs) and 1 for positive arguments. All step functions can be expressed as linear 
+combinations or translations of the Heaviside step function (that's why it's called the unit!).
+- Predictor: 
+- Threshold: 
 
 Learning
 - Deep: Any machine learning algorithm that makes use of multiple neuron layers in order 
@@ -57,19 +65,17 @@ combination of the inputs (sums them with weights), passes the linear combinatio
 non-linear function ("activation function"), and transmits the activation function resulting 
 value as an output. This output may undergo further processing by other layers within the 
 neural network.
-- Perceptron: 
-- Thresholds:
+- Perceptron: A linear binary classifier, a single layer neural network. Perceptrons only 
+classify inputs into two categories, and the boundary between those categories is a line. 
+Note, multilayer perceptrons do not match this definition. They are rather variations on 
+the artificial neuron.
 - Weights:
 
 
 Miscellaneous
-
 - Architecture:
 - Data Mining:
 - Gradient:
-- Heaviside Function: "The unit step function", holds the value 0 for negative arguments 
-(inputs) and 1 for positive arguments. All step functions can be expressed as linear 
-combinations or translations of the Heaviside step function (that's why it's called the unit!).
 - Logic Gates:
 - Training Set: The set of example information from which a machine learning algorithm learns 
 its intended task. Constructing a "good" (comprehensive, reprepresentative) training set is 
