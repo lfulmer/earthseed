@@ -67,9 +67,9 @@ Miscellaneous
 - Architecture:
 - Data Mining:
 - Gradient:
-- Heaviside Function: "The unit step function", holds the value 0 for negative arguments (inputs) 
-and 1 for positive arguments. All step functions can be expressed as linear combinations or 
-translations of the Heaviside step function (that's why it's called the unit!).
+- Heaviside Function: "The unit step function", holds the value 0 for negative arguments 
+(inputs) and 1 for positive arguments. All step functions can be expressed as linear 
+combinations or translations of the Heaviside step function (that's why it's called the unit!).
 - Logic Gates:
 - Training Set: The set of example information from which a machine learning algorithm learns 
 its intended task. Constructing a "good" (comprehensive, reprepresentative) training set is 
