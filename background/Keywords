@@ -1,11 +1,13 @@
-<b>Questions</b>
+Questions
 - What is the advantage of having more nodes?
+-- Similar to with nonlinear activation functions, I'm guessing that more nodes offer the opportunity to learn more nuanced tasks.
 - Why do activation functions have the shape that they do?
 - What determines the shape of an activation function?
 - How do the neurons in a layer work together?
+- Why is the first input always constant or equal to 1? What's the point of having that input in the first place? What information does it offer?
 
 Learning
-- Deep:
+- Deep: Any machine learning algorithm that makes use of multiple neuron layers in order to learn a task. More layers allow one to extract more complex features from a given input and thus learn more complex tasks or make more complex decisions.
 - Machine: Machine learning refers to any computational algorithm that performs a specific task without explicit instruction. Such an algorithm relies on pattern recognition and inference in order to complete the task and learns by experience (taking in many repeated examples of the data to be identified, classified, etc). In this way, machine learning attempts to mimic the way that humans learn. As a child, you learn that a spoon is called a "spoon" because a parent repeatedly refers to it as such. Children may misclassify their experiences because they have few reference points from which to assess them. Adults are typically more skilled at processing and classifying their experiences because they have a foundation of pattern recognition on which to base their analysis. Machine learning is an important technique among tasks for which explicit instructions are impossible to provide (i.e. "tell me which of these objects humans have never seen before").
 - Transfer:
 
@@ -34,7 +36,7 @@ Miscellaneous
 - Architecture:
 - Data Mining:
 - Gradient:
-- Heaviside: 
+- Heaviside Function: "The unit step function", holds the value 0 for negative arguments (inputs) and 1 for positive arguments. All step functions can be expressed as linear combinations or translations of the Heaviside step function (that's why it's called the unit!).
 - Logic Gates:
 - Training Set: The set of example information from which a machine learning algorithm learns its intended task. Constructing a "good" (comprehensive, reprepresentative) training set is important, because it determines the degree to which your algorithm will perform its intended task in the future. If you want a child to speak multiple languages, they must receive input from native speakers of those languages. Similarly, a machine learning algorithm can only reproduce what it has been shown.
 - Testing Set: 
