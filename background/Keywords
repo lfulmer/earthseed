@@ -1,18 +1,35 @@
 Questions
 - What is the advantage of having more nodes?
--- Similar to with nonlinear activation functions, I'm guessing that more nodes offer the opportunity to learn more nuanced tasks.
+-- Similar to with nonlinear activation functions, I'm guessing that more nodes offer the 
+opportunity to learn more nuanced tasks.
 - Why do activation functions have the shape that they do?
 - What determines the shape of an activation function?
 - How do the neurons in a layer work together?
-- Why is the first input always constant or equal to 1? What's the point of having that input in the first place? What information does it offer?
+- Why is the first input always constant or equal to 1? What's the point of having that 
+input in the first place? What information does it offer?
 
 Learning
-- Deep: Any machine learning algorithm that makes use of multiple neuron layers in order to learn a task. More layers allow one to extract more complex features from a given input and thus learn more complex tasks or make more complex decisions.
-- Machine: Machine learning refers to any computational algorithm that performs a specific task without explicit instruction. Such an algorithm relies on pattern recognition and inference in order to complete the task and learns by experience (taking in many repeated examples of the data to be identified, classified, etc). In this way, machine learning attempts to mimic the way that humans learn. As a child, you learn that a spoon is called a "spoon" because a parent repeatedly refers to it as such. Children may misclassify their experiences because they have few reference points from which to assess them. Adults are typically more skilled at processing and classifying their experiences because they have a foundation of pattern recognition on which to base their analysis. Machine learning is an important technique among tasks for which explicit instructions are impossible to provide (i.e. "tell me which of these objects humans have never seen before").
+- Deep: Any machine learning algorithm that makes use of multiple neuron layers in order 
+to learn a task. More layers allow one to extract more complex features from a given input 
+and thus learn more complex tasks or make more complex decisions.
+- Machine: Machine learning refers to any computational algorithm that performs a specific 
+task without explicit instruction. Such an algorithm relies on pattern recognition and 
+inference in order to complete the task and learns by experience (taking in many repeated 
+examples of the data to be identified, classified, etc). In this way, machine learning 
+attempts to mimic the way that humans learn. As a child, you learn that a spoon is called 
+a "spoon" because a parent repeatedly refers to it as such. Children may misclassify their 
+experiences because they have few reference points from which to assess them. Adults are 
+typically more skilled at processing and classifying their experiences because they have a 
+foundation of pattern recognition on which to base their analysis. Machine learning is an 
+important technique among tasks for which explicit instructions are impossible to provide 
+(i.e. "tell me which of these objects humans have never seen before").
 - Transfer:
 
 Neural Networks, Types
-- Artificial: Otherwise known as simply a "neural network", ANNs are a form of machine learning algorithm whose architecture is made up of interconnected nodes or "neurons". Neurons receive, process, and transmit information among one another, collectively transforming input to output.
+- Artificial: Otherwise known as simply a "neural network", ANNs are a form of machine 
+learning algorithm whose architecture is made up of interconnected nodes or "neurons". 
+Neurons receive, process, and transmit information among one another, collectively 
+transforming input to output.
 - Bayesian:
 - Convolutional:
 - Deep:
@@ -21,11 +38,25 @@ Neural Networks, Types
 - Recurrent:
 
 Neural Networks, Anatomy
-- Activation Function: Otherwise known as a "transfer function", activation functions determine the output of a neuron. An activation function is a mathematical proxy to the rate of action potential within a cell. In its most simplistic form, a neuron has two possible outputs: "off" - 0, and "on" - 1. With more complex outputs (i.e. a function that interpolates between 0 and 1), one may construct a neural network capable of more complex tasks. The nonlinearity of an activation function offers nuance; you can ask questions that have more complicated answers than "yes" or "no". Furthermore, in order to learn non-trivial tasks, a neural network *must* contain nonlinear activation functions. Activation functions typically have a sigmoid shape (close to hyperbolic tangent), and "they are [] often monotonically increasing, continuous, differentiable and bounded." For backpropogation, the activation function must be differentiable.
+- Activation Function: Otherwise known as a "transfer function", activation functions 
+determine the output of a neuron. An activation function is a mathematical proxy to the rate 
+of action potential within a cell. In its most simplistic form, a neuron has two possible 
+outputs: "off" - 0, and "on" - 1. With more complex outputs (i.e. a function that 
+interpolates between 0 and 1), one may construct a neural network capable of more complex 
+tasks. The nonlinearity of an activation function offers nuance; you can ask questions that 
+have more complicated answers than "yes" or "no". Furthermore, in order to learn non-trivial 
+tasks, a neural network *must* contain nonlinear activation functions. Activation functions 
+typically have a sigmoid shape (close to hyperbolic tangent), and "they are [] often 
+monotonically increasing, continuous, differentiable and bounded." For backpropogation, the 
+activation function must be differentiable.
 - Backpropogation: 
 - Gates:
 - Layers: The aggregation of a number of neurons. 
-- Neuron: A mathematical function that receives one or more inputs, creates a linear combination of the inputs (sums them with weights), passes the linear combination through a non-linear function ("activation function"), and transmits the activation function resulting value as an output. This output may undergo further processing by other layers within the neural network.
+- Neuron: A mathematical function that receives one or more inputs, creates a linear 
+combination of the inputs (sums them with weights), passes the linear combination through a 
+non-linear function ("activation function"), and transmits the activation function resulting 
+value as an output. This output may undergo further processing by other layers within the 
+neural network.
 - Perceptron: 
 - Thresholds:
 - Weights:
@@ -36,8 +67,15 @@ Miscellaneous
 - Architecture:
 - Data Mining:
 - Gradient:
-- Heaviside Function: "The unit step function", holds the value 0 for negative arguments (inputs) and 1 for positive arguments. All step functions can be expressed as linear combinations or translations of the Heaviside step function (that's why it's called the unit!).
+- Heaviside Function: "The unit step function", holds the value 0 for negative arguments (inputs) 
+and 1 for positive arguments. All step functions can be expressed as linear combinations or 
+translations of the Heaviside step function (that's why it's called the unit!).
 - Logic Gates:
-- Training Set: The set of example information from which a machine learning algorithm learns its intended task. Constructing a "good" (comprehensive, reprepresentative) training set is important, because it determines the degree to which your algorithm will perform its intended task in the future. If you want a child to speak multiple languages, they must receive input from native speakers of those languages. Similarly, a machine learning algorithm can only reproduce what it has been shown.
+- Training Set: The set of example information from which a machine learning algorithm learns 
+its intended task. Constructing a "good" (comprehensive, reprepresentative) training set is 
+important, because it determines the degree to which your algorithm will perform its intended 
+task in the future. If you want a child to speak multiple languages, they must receive input 
+from native speakers of those languages. Similarly, a machine learning algorithm can only 
+reproduce what it has been shown.
 - Testing Set: 
 
