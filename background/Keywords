@@ -1,7 +1,7 @@
-Questions
+General Questions
 - What is the advantage of having more nodes?
-- What is the standard number of nodes used for a complex task? Is the number of nodes used in 
-an algorithm something that people compare / use as a metric, such as lines of code?
+- What is the standard number of nodes used for a complex task? Is the number of nodes used 
+in an algorithm something that people compare / use as a metric, such as lines of code?
 - Why do activation functions have the shape that they do?
 - What determines the shape of an activation function?
 - How do the neurons in a layer work together?
@@ -10,12 +10,24 @@ input in the first place? What information does it offer?
 - What in heaven's name are gates? What is happening?
 - Does forward and backward propogation just mean, "talk to a neuron closer to the output" 
 and "talk to a neuron closer to the input", respectively?
+- What does it mean to "cycle information" through the layers of an RNN? Is that type of 
+cycling still possible with uni-directional RNN?
+- How does something store long-term information? What does it mean for it to do so?
+- What is "real-time" classification? What is meant by "real-time"?
+- Does batch normalization corrupt the data in any way? (If it did, it wouldn't be a very 
+effective technique, I guessing I'm just asking do we have to consider this at all.)
+- Is "stability" a technical term? What defines stability?
+- What is bias? What's the difference between bias and weights? I think I need an 
+example. I see what is happening mathematically, but I still don't really *get* it.
 
 Functions
 - Activation: See Neural Networks, Anatomy.
 - Heaviside: "The unit step function", holds the value 0 for negative arguments 
 (inputs) and 1 for positive arguments. All step functions can be expressed as linear 
-combinations or translations of the Heaviside step function (that's why it's called the unit!).
+combinations or translations of the Heaviside step function (that's why it's called the 
+unit!).
+- Objective: I notice that sometimes the objective function is minimized and sometimes 
+it's maximized. Is there a difference between these states?
 - Predictor: 
 - Threshold: 
 
@@ -37,6 +49,7 @@ important technique among tasks for which explicit instructions are impossible t
 - Transfer:
 
 Neural Networks, Types
+- Advanced: 
 - Artificial: Otherwise known as simply a "neural network", ANNs are a form of machine 
 learning algorithm whose architecture is made up of interconnected nodes or "neurons". 
 Neurons receive, process, and transmit information among one another, collectively 
@@ -44,8 +57,6 @@ transforming input to output.
 - Bayesian:
 - Convolutional:
 - Deep:
-- Fully Connected Feedforward:
-- Long Short-Term Memory:
 - Recurrent: A neural network in which the order of inputs contains meaning and inputs 
 are processed in an ordered sequence, the layers are successive. For our purposes, the 
 meaning of that order is the passing of time. 
@@ -63,11 +74,17 @@ typically have a sigmoid shape (close to hyperbolic tangent), and "they are [] o
 monotonically increasing, continuous, differentiable and bounded." For backpropogation, the 
 activation function must be differentiable.
 - Backpropogation: 
+- Biases:
 - Directed Connection: Connections between successive nodes occur in only one direction, 
 represented by arrows.
+- Feedforward:
+- Fully Connected:
 - Gates / Gated State / Gated Memory: 
 - Gated Recurrent Units:
-- Layers: The aggregation of a number of neurons. 
+- Layer: The aggregation of a number of neurons. 
+-- Dense:
+- Long Short-Term Memory:
+-- Phased:
 - Memory: 
 - Neuron: A mathematical function that receives one or more inputs, creates a linear 
 combination of the inputs (sums them with weights), passes the linear combination through a 
@@ -81,17 +98,46 @@ the artificial neuron.
 - Storage: 
 - Weights:
 
-
-Miscellaneous
+Miscellaneous / Not Yet Sorted Above
 - Architecture:
+- Batch Normalization:
+- Boosting (Boosted Decision Trees): 
+- Catagorical Cross-Entropy:
 - Data Mining:
+- Dropout: 
 - Gradient:
+- k-Nearest Neighbors: 
+- Latency: 
 - Logic Gates:
+- Multilayer Perceptrons: 
+- Naive Bayes: 
+- Receiver Operating Characteristic Curve:
+- Semi-Supervised Learning: 
+- Stability: 
+- Support Vector Machines: 
+- Testing Set: 
 - Training Set: The set of example information from which a machine learning algorithm learns 
 its intended task. Constructing a "good" (comprehensive, reprepresentative) training set is 
 important, because it determines the degree to which your algorithm will perform its intended 
 task in the future. If you want a child to speak multiple languages, they must receive input 
 from native speakers of those languages. Similarly, a machine learning algorithm can only 
 reproduce what it has been shown.
-- Testing Set: 
+
+
+Phrases to Parse (Girl, What?):
+- "computes the Bayesian evidence by marginalizing the likelihood over the parameter space"
+- "encode an internal representation of previous epochs in time-series data, which along 
+with real-time data, can be used for classification"
+- "one-hot encoded vector"
+- "proportional to the negative log-likelihood of the probabilities of a categorical 
+distribution (or a generalized Bernoulli distribution)"
+- "gradient descent optimizer"
+- "uni-direcitonal GRU"
+- "parameters that control the information that should be remembered at each step along the 
+light curve"
+- "encode it into a higher-dimensional representation"
+- "the distribution of each layer's inputs changes as the parameters of the previous layers 
+change"
+- "time-distributed layer"
+
 
