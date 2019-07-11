@@ -7,6 +7,9 @@ an algorithm something that people compare / use as a metric, such as lines of c
 - How do the neurons in a layer work together?
 - Why is the first input always constant or equal to 1? What's the point of having that 
 input in the first place? What information does it offer?
+- What in heaven's name are gates? What is happening?
+- Does forward and backward propogation just mean, "talk to a neuron closer to the output" 
+and "talk to a neuron closer to the input", respectively?
 
 Functions
 - Activation: See Neural Networks, Anatomy.
@@ -42,8 +45,10 @@ transforming input to output.
 - Convolutional:
 - Deep:
 - Fully Connected Feedforward:
-- Long Short Term Memory:
-- Recurrent:
+- Long Short-Term Memory:
+- Recurrent: A neural network in which the order of inputs contains meaning and inputs 
+are processed in an ordered sequence, the layers are successive. For our purposes, the 
+meaning of that order is the passing of time. 
 
 Neural Networks, Anatomy
 - Activation Function: Otherwise known as a "transfer function", activation functions 
@@ -58,8 +63,12 @@ typically have a sigmoid shape (close to hyperbolic tangent), and "they are [] o
 monotonically increasing, continuous, differentiable and bounded." For backpropogation, the 
 activation function must be differentiable.
 - Backpropogation: 
-- Gates:
+- Directed Connection: Connections between successive nodes occur in only one direction, 
+represented by arrows.
+- Gates / Gated State / Gated Memory: 
+- Gated Recurrent Units:
 - Layers: The aggregation of a number of neurons. 
+- Memory: 
 - Neuron: A mathematical function that receives one or more inputs, creates a linear 
 combination of the inputs (sums them with weights), passes the linear combination through a 
 non-linear function ("activation function"), and transmits the activation function resulting 
@@ -69,6 +78,7 @@ neural network.
 classify inputs into two categories, and the boundary between those categories is a line. 
 Note, multilayer perceptrons do not match this definition. They are rather variations on 
 the artificial neuron.
+- Storage: 
 - Weights:
 
 
