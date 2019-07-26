@@ -90,10 +90,6 @@ the artificial neuron.
 
 Miscellaneous / Not Yet Sorted Above
 - Architecture:
-- API: Defines the foundational vocabulary for a piece of software (e.g. "...subroutine 
-definitions, communication protocols, and tools..."). If programming is just a bunch of 
-instructions for where to point, then the API is the foundational place where all other 
-functions, modules (etc.) point.
 - Batch Normalization:
 - Boosting (Boosted Decision Trees): 
 - Catagorical Cross-Entropy:
