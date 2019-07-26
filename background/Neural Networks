@@ -1,19 +1,9 @@
 General Questions
-- What is the advantage of having more nodes?
-- What is the standard number of nodes used for a complex task? Is the number of nodes used 
-in an algorithm something that people compare / use as a metric, such as lines of code?
-- Why do activation functions have the shape that they do?
-- What determines the shape of an activation function?
 - How do the neurons in a layer work together?
 - Why is the first input always constant or equal to 1? What's the point of having that 
 input in the first place? What information does it offer?
-- What in heaven's name are gates? What is happening?
-- Does forward and backward propogation just mean, "talk to a neuron closer to the output" 
-and "talk to a neuron closer to the input", respectively?
 - What does it mean to "cycle information" through the layers of an RNN? Is that type of 
 cycling still possible with uni-directional RNN?
-- How does something store long-term information? What does it mean for it to do so?
-- What is "real-time" classification? What is meant by "real-time"?
 - Does batch normalization corrupt the data in any way? (If it did, it wouldn't be a very 
 effective technique, I guessing I'm just asking do we have to consider this at all.)
 - Is "stability" a technical term? What defines stability?
@@ -145,3 +135,33 @@ change"
 - "time-distributed layer"
 
 
+Question / Phrases to Parse Resting Place:
+- What is the advantage of having more nodes?
+-- More nodes = more nuance / expression = capable of learning more complex tasks.
+- What is the standard number of nodes used for a complex task? Is the number of nodes used 
+in an algorithm something that people compare / use as a metric, such as lines of code?
+-- No. Figuring out how many nodes to use for a task is determined through a process of 
+trial and error. Too many nodes leads to overfitting, too few nodes leads to an 
+insufficiently nuanced learner.
+- Why do activation functions have the shape that they do?
+-- Must be nonlinear to capture nuanced infomation. Hyperbolic tangent (tanh) used because 
+it has a domain of (-inf, inf) and a range of [-1, 1]. 
+- What determines the shape of an activation function?
+-- I feel like this question is vague. I think what determines the function in the 
+intention for which we need that function. Again, hyperbolic tangent (tanh) used because 
+it has a domain of (-inf, inf) and a range of [-1, 1]. This means that it can take any 
+input and produce a manageable output.
+- What in heaven's name are gates? What is happening?
+-- Gates = decisions ; activation functions = information. Gates take input information 
+and translate that information to a decision about how much of that information will be 
+passed on to the next layer or fed into the activation function.
+- Does forward and backward propogation just mean, "talk to a neuron closer to the output" 
+and "talk to a neuron closer to the input", respectively?
+-- I think so.
+- How does something store long-term information? What does it mean for it to do so?
+-- GATES! I still want to learn more about this, but within the context of gates, 
+"memory" is just the information that is allowed to propogate to future layers. 
+Information is preserved within the activation function, and if that information is 
+preserved over many layers, then it is "remembered" long-term.
+- What is "real-time" classification? What is meant by "real-time"?
+-- I think this means in the moment or close to the moment of observation.
