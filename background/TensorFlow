@@ -1,13 +1,23 @@
 Questions:
 - Does each software system have a single API? How would / do multiple APIs work 
-together? 
+together?
+-- "How a user *interacts* with a program" -> They make things as easy for the user as 
+possible. You want it to be consistent.
+-- Keyword: interface
 - What does it mean for an API to be "high-level" vs. "low-level"? What kind of 
 hierarchical system are we working in?
+-- Low-level: High degree of customization (have to do a lot yourself)...
+-- High-level: Gives you ready-made things at the loss of customization...
+-- Depends on what degree of customization you *need*
 - What does it mean to write code "imperatively"? How is numpy imperative?
 - What does it mean for a model to be "fully-packaged"?
 - Does the Estimators API provide models that users don't need to train because they 
 are already trained, or does it just provide a way to scale the process of training a 
 model?
+-- Gives you a neural network architecture that you can go ahead and train.
+
+-- Branch of mathematics called "graph theory" (connections, like graphing skin)
+-- NNs are graph models + you can use graph theory to help you train it
 
 
 Architecture:
