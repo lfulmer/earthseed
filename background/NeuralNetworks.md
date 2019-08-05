@@ -1,9 +1,7 @@
 ### General Questions
-- What does a neuron *do*? I understand that there is a definition below, but I need 
-a plane-English explanation for what a neuron *does* with data.
+- What does a neuron *do*? I understand that there is a definition below, but I need a plane-English explanation for what a neuron *does* with data.
 - How do the neurons in a layer work together?
-- Why is the first input always constant or equal to 1? What's the point of having that 
-input in the first place? What information does it offer?
+- Why is the first input always constant or equal to 1? What's the point of having that input in the first place? What information does it offer?
 - What does it mean to "cycle information" through the layers of an RNN? Is that type of 
 cycling still possible with uni-directional RNN?
 - Does batch normalization corrupt the data in any way? (If it did, it wouldn't be a very 
