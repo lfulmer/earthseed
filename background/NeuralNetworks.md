@@ -1,4 +1,4 @@
-General Questions
+### General Questions
 - What does a neuron *do*? I understand that there is a definition below, but I need 
 a plane-English explanation for what a neuron *does* with data.
 - How do the neurons in a layer work together?
@@ -12,7 +12,7 @@ effective technique, I guessing I'm just asking do we have to consider this at a
 - What is bias? What's the difference between bias and weights? I think I need an 
 example. I see what is happening mathematically, but I still don't really *get* it.
 
-Functions
+### Functions
 - Activation: See Neural Networks, Anatomy.
 - Heaviside: "The unit step function", holds the value 0 for negative arguments 
 (inputs) and 1 for positive arguments. All step functions can be expressed as linear 
@@ -23,7 +23,7 @@ it's maximized. Is there a difference between these states?
 - Predictor: 
 - Threshold: 
 
-Learning
+### Learning
 - Deep: Any machine learning algorithm that makes use of multiple neuron layers in order 
 to learn a task. More layers allow one to extract more complex features from a given input 
 and thus learn more complex tasks or make more complex decisions.
@@ -40,7 +40,7 @@ important technique among tasks for which explicit instructions are impossible t
 (i.e. "tell me which of these objects humans have never seen before").
 - Transfer:
 
-Neural Networks, Types
+### Neural Networks, Types
 - Advanced: 
 - Artificial: Otherwise known as simply a "neural network", ANNs are a form of machine 
 learning algorithm whose architecture is made up of interconnected nodes or "neurons". 
@@ -53,7 +53,7 @@ transforming input to output.
 are processed in an ordered sequence, the layers are successive. For our purposes, the 
 meaning of that order is the passing of time. 
 
-Neural Networks, Anatomy
+### Neural Networks, Anatomy
 - Activation Function: Otherwise known as a "transfer function", activation functions 
 determine the output of a neuron. An activation function is a mathematical proxy to the rate 
 of action potential within a cell. In its most simplistic form, a neuron has two possible 
@@ -90,7 +90,7 @@ the artificial neuron.
 - Storage: 
 - Weights:
 
-Miscellaneous / Not Yet Sorted Above
+### Miscellaneous / Not Yet Sorted Above
 - Architecture:
 - Batch Normalization:
 - Boosting (Boosted Decision Trees): 
@@ -116,7 +116,7 @@ from native speakers of those languages. Similarly, a machine learning algorithm
 reproduce what it has been shown.
 
 
-Phrases to Parse (Girl, What?):
+### Phrases to Parse (Girl, What?):
 - "computes the Bayesian evidence by marginalizing the likelihood over the parameter space"
 - "encode an internal representation of previous epochs in time-series data, which along 
 with real-time data, can be used for classification"
@@ -133,7 +133,7 @@ change"
 - "time-distributed layer"
 
 
-Question / Phrases to Parse Resting Place:
+### Question / Phrases to Parse Resting Place:
 - What is the advantage of having more nodes?
 -- More nodes = more nuance / expression = capable of learning more complex tasks.
 - What is the standard number of nodes used for a complex task? Is the number of nodes used 
