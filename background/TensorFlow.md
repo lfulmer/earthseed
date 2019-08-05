@@ -1,6 +1,5 @@
-Questions:
-- Does each software system have a single API? How would / do multiple APIs work 
-together?
+### Questions:
+- Does each software system have a single API? How would / do multiple APIs work together?
 -- "How a user *interacts* with a program" -> They make things as easy for the user as 
 possible. You want it to be consistent.
 -- Keyword: interface
@@ -21,7 +20,9 @@ model?
 
 
 Architecture:
-- API: Defines the foundational vocabulary for a piece of software (e.g. "...subroutine 
+- API: Defines the architecture by which a user interacts with a software package (e.g. "...subroutine definitions, communication protocols, and tools...").
+
+foundational vocabulary for a piece of software (e.g. "...subroutine 
 definitions, communication protocols, and tools..."). If programming is just a bunch of 
 instructions for where to point, then the API is the foundational place where all other 
 functions, modules (etc.) point.
